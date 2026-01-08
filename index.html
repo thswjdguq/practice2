@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인 - Modern Login System</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="common.js"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div id="content">
+        <div id="login_box">
+            <h2 class="login_title">로그인</h2>
+            <div class="input_group">
+                <input id="i" type="text" placeholder="아이디를 입력하세요">
+            </div>
+            <div class="input_group">
+                <input id="p" type="password" placeholder="비밀번호를 입력하세요">
+            </div>
+            <div class="button_group">
+                <button id="btn_login" class="btn btn_primary" onclick="login();">로그인</button>
+                <a href="reg_member.html"><button type="button" class="btn btn_secondary">회원가입</button></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
